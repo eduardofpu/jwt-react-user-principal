@@ -4,11 +4,13 @@
 Intalar as dependencias node_modules
 npm istall  
 
+executar o projeto npm start
+
 
 
 Esta api mostra como criar o login com user principal :
 
-Paralogar como usuário comum, esse usuário não vera o edit no menu
+Para logar como usuário comum, esse usuário não vera o edit no menu
 user@user.com
 user
 

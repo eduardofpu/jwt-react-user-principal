@@ -2,9 +2,10 @@ export const TOKEN_KEY = "@airbnb-Token";
 export const TYPE_KEY = "@type-user";
 export const isAuthenticated = () => localStorage.getItem(TOKEN_KEY) !== null;
 
-//Setea o token
+//Obtem a key para o token
 export const getToken = () => localStorage.getItem(TOKEN_KEY);
-// Seta o usuario principal usuario ou admin
+
+//Obtem a key para o usuario principal
 export const getUserType = () => localStorage.getItem(TYPE_KEY);
 
 //Captura o usuario principal  user ou admin
