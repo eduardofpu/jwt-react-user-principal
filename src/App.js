@@ -6,7 +6,6 @@ import imgReact from'./imgs/react.png'
 import imgNode from'./imgs/nodejs.png'
 import { isAuthenticated, logout, getUserType } from './services/auth';
 
-const userPrincipal= false
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
     {...rest}
